@@ -1,0 +1,771 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-25T05:47:31.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Intel Core i5-13600KF Boxed 14 cores (6 P-cores + 8 E-cores)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-25T05:48:13.238Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Intel Core i7-13700KF Boxed 16 cores (8 P-cores + 8 E-cores)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-25T05:48:48.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "AMD Ryzen 7 5700X Box",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-25T05:49:22.359Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "AMD Ryzen 5 5500 Box",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-25T05:50:17.758Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "ASUS TUF GeForce RTX 4080 Gaming OC TUF-RTX4080-O16G-GAMING 16GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-25T05:50:38.387Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ASUS DUAL Radeon RX 6750XT OC O12G DUAL-RX6750XT-O12G 12GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-25T05:51:00.340Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "ZOTAC GAMING GeForce RTX 3070 LHR Twin Edge 8GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-25T05:51:22.170Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "MSI GeForce RTX4080 SUPRIM X 16GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-25T05:52:03.348Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Samsung Monitor S27A600NWU 68.6 cm (27\") WQHD Monitor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-25T05:52:24.661Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "LG 27UP650-W 68.6 cm (27\")",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-25T05:52:47.222Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "MSI Modern MD272QPWDE 68.6 cm (27\") WQHD Monitor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-03-25T05:53:08.680Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Dell P2723DE 68.6 cm (27\") WQHD Monitor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-03-25T05:53:36.924Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "GIGABYTE Z790 AORUS MASTER",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-03-25T05:53:58.251Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "ASUS ROG STRIX B550-F GAMING WIFI II",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-03-25T05:54:16.024Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "ASRock Z790 PRO RS/D4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-03-25T05:54:36.734Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "MSI MPG Z590 GAMING EDGE WIFI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-03-25T05:55:22.875Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "root's review of Intel Core i5-13600KF Boxed 14 cores (6 P-cores + 8 E-cores)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 8,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 8,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 8,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 8,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$X9HTCGmAcpliHe7YMpq8Pr$k04Q4l4guas2O8wAQzBfln84S25LQ6ixcRPoL+ssSf4=",
+    "last_login": "2023-03-25T05:42:59.045Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-25T05:42:40.342Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "reviewer",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "reviewer",
+    "model": "review"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "07y1otjmfwnqd6bzdrx9whe2i8hx2gcg",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlkJWdY2JX3OEO3HxgFkS_lUiLuTSCmgnHlv5m0GWpc8rHOchlHN1bTm9NsxyTOWHeiDyr1aqWWZRra7Yg86275qfN0O9-8g05y39RmwicERQmhTQEmdQCMeFBAB0DHzxXVEQil0IAzee-WWHGiDWzKfL9HGN7A:1pfwg7:9h9o1X6tfjz138bLaRBHDxaG2Bohmtfcckc_6mGjzXY",
+    "expire_date": "2023-04-08T05:42:59.047Z"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 1,
+  "fields": {
+    "name": "Intel Core i5-13600KF Boxed 14 cores (6 P-cores + 8 E-cores)",
+    "category": "CPU",
+    "description": "High End 14-Core CPU, Boxed (without heatsink)\r\nfor Sockel 1700, 181 W TDP\r\n14 Cores / 20 Threads\r\nBasistakt: 3.50 GHz, Turbo clock: 5.10 GHz\r\n24 MB L3 cache, Unlocked multiplier",
+    "image": "https://img.computerunivers.net/images/800/909128162F6364D3775E4D7FA76A3C8C.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 2,
+  "fields": {
+    "name": "Intel Core i7-13700KF Boxed 16 cores (8 P-cores + 8 E-cores)",
+    "category": "CPU",
+    "description": "High End 16-Core CPU, Boxed (without heatsink)\r\nfor Sockel 1700, 253 W TDP\r\n16 Cores / 24 Threads\r\nBasistakt: 3.40 GHz, Turbo clock: 5.40 GHz\r\n30 MB L3 cache, Unlocked multiplier",
+    "image": "https://img.computerunivers.net/images/800/90912814FEB29040DF8543FC9CFB204B.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 3,
+  "fields": {
+    "name": "AMD Ryzen 7 5700X Box",
+    "category": "CPU",
+    "description": "High End Octa Core CPU, Boxed (without heatsink)\r\nfor Sockel AM4, 65 W TDP\r\n8 Cores / 16 Threads\r\nBasistakt: 3.40 GHz, Turbo clock: 4.60 GHz\r\n36 MB L3 cache, Unlocked multiplier",
+    "image": "https://img.computerunivers.net/images/600/90860748EAA8302DEB544371B6531E15.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 4,
+  "fields": {
+    "name": "AMD Ryzen 5 5500 Box",
+    "category": "CPU",
+    "description": "Mid Range Hexa Core CPU, Boxed with heatsink\r\nfor Sockel AM4, 65 W TDP\r\n6 Cores / 12 Threads\r\nBasistakt: 3.60 GHz, Turbo clock: 4.20 GHz\r\n19 MB L3 cache, Unlocked multiplier",
+    "image": "https://img.computerunivers.net/images/600/908607464063093E536F43DD8F38BD59.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 5,
+  "fields": {
+    "name": "ASUS TUF GeForce RTX 4080 Gaming OC TUF-RTX4080-O16G-GAMING 16GB",
+    "category": "GPU",
+    "description": "NVIDIA® GeForce® RTX 4080, Overclocked\r\n16.0 GB GDDR6X (256bit), Connection via PCIe 4.0\r\nActive Cooling (Quad-Slot), RGB beleuchtet\r\n2x HDMI, 3x DisplayPort\r\nPower Supply: 1x 16pin (12VHPWR), 750 W PSU recommended\r\nCard length approx. 348 mm\r\nAda Lovelace Architektur, mit Raytracing und DLSS 3",
+    "image": "https://img.computerunivers.net/images/250x250/90916127B28A7B28A9744A6C85CD82DC.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 6,
+  "fields": {
+    "name": "ASUS DUAL Radeon RX 6750XT OC O12G DUAL-RX6750XT-O12G 12GB",
+    "category": "GPU",
+    "description": "AMD Radeon™ RX 6750 XT, Overclocked\r\n12 GB GDDR6 (192bit), Connection via PCIe 4.0\r\nActive Cooling (Tri-Slot), RGB beleuchtet\r\n1x HDMI, 3x DisplayPort\r\nPower Supply: 2x 8pin, 750 W PSU recommended\r\nCard length approx. 295 mm",
+    "image": "https://img.computerunivers.net/images/250x250/908950137990A17EC3D54082B30FAA83.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 7,
+  "fields": {
+    "name": "ZOTAC GAMING GeForce RTX 3070 LHR Twin Edge 8GB",
+    "category": "GPU",
+    "description": "NVIDIA® GeForce RTX™ 3070 (LHR)\r\n8.0 GB GDDR6 (256bit), Connection via PCIe 4.0\r\nActive Cooling (Dual-Slot), weiß beleuchtet\r\n1x HDMI, 3x DisplayPort\r\nPower Supply: 2x 8pin, 650 W PSU recommended\r\nCard length approx. 232 mm",
+    "image": "https://img.computerunivers.net/images/250x250/90841278DE38157A239B4FF881DEED6A.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 8,
+  "fields": {
+    "name": "MSI GeForce RTX4080 SUPRIM X 16GB",
+    "category": "GPU",
+    "description": "NVIDIA® GeForce® RTX 4080, Overclocked\r\n16.0 GB GDDR6X (256bit), Connection via PCIe 4.0\r\nActive Cooling (Quad-Slot)\r\n1x HDMI, 3x DisplayPort\r\nPower Supply: 1x 16pin (12VHPWR), 850 W PSU recommended\r\nCard length approx. 336 mm\r\nAda Lovelace Architektur, mit Raytracing und DLSS 3",
+    "image": "https://img.computerunivers.net/images/250x250/909168809C1A65235D1F4F349A05EDBF.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 9,
+  "fields": {
+    "name": "Samsung Monitor S27A600NWU 68.6 cm (27\") WQHD Monitor",
+    "category": "MONITOR",
+    "description": "68.6 cm (27\") 16:9, IPS-Panel (matt)\r\n2560 x 1440, Reaktionszeit 5 ms, HDR10\r\nup to 75 Hz, Adaptive Sync / FreeSync\r\n1x DisplayPort, 1x HDMI, USB-Hub (1x USB 2.0, 3x USB3.1 Gen 1)\r\nHeight adjustable, Swivel, Tilt, Pivot, VESA 100 x 100mm\r\nBild in Bild-Modus\r\nProduct data sheet",
+    "image": "https://img.computerunivers.net/images/250x250/9082975342CA6470169E440BB4312936.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 10,
+  "fields": {
+    "name": "LG 27UP650-W 68.6 cm (27\")",
+    "category": "MONITOR",
+    "description": "68.6 cm (27\") 16:9, IPS-Panel (matt)\r\n3840 x 2160 (UHD), Reaktionszeit 5 ms, DisplayHDR 400\r\nup to 60 Hz, Adaptive Sync / FreeSync\r\n1x DisplayPort, 2x HDMI\r\nHeight adjustable, Tilt, VESA 100 x 100mm\r\nSlim Bezel, Integrated",
+    "image": "https://img.computerunivers.net/images/250x250/90877740C9E436B9718B498D902A6FF0.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 11,
+  "fields": {
+    "name": "MSI Modern MD272QPWDE 68.6 cm (27\") WQHD Monitor",
+    "category": "MONITOR",
+    "description": "68.6 cm (27\") 16:9, IPS-Panel (matt)\r\n2560 x 1440, Reaktionszeit 4 ms\r\nup to 75 Hz\r\n1x USB Typ C, 1x DisplayPort, 1x HDMI, USB-Hub (2x USB 2.0)\r\nHeight adjustable, Swivel, Tilt, Pivot, VESA 75 x 75mm\r\nSpeaker, Slim Bezel\r\nProduct data sheet",
+    "image": "https://img.computerunivers.net/images/250x250/90908226AA0C9AA8A83B4092BFE8FBD5.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 12,
+  "fields": {
+    "name": "Dell P2723DE 68.6 cm (27\") WQHD Monitor",
+    "category": "MONITOR",
+    "description": "68.6 cm (27\") 16:9, IPS-Panel (matt)\r\n2560 x 1440, Reaktionszeit 5 ms\r\nup to 60 Hz\r\n1x USB Typ C, 1x DisplayPort, 1x HDMI, USB-Hub (4x USB3.1 Gen 1)\r\nHeight adjustable, Swivel, Tilt, Pivot, VESA 100 x 100mm\r\nSlim Bezel, RJ-45 Port\r\nProduct data sheet",
+    "image": "https://img.computerunivers.net/images/250x250/90859764A0F94370D266439187323AB7.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 13,
+  "fields": {
+    "name": "GIGABYTE Z790 AORUS MASTER",
+    "category": "MOTHERBOARD",
+    "description": "E-ATX, Sockel 1700\r\nIntel Z790, 4x DDR5 up to 128 GB\r\n3x PCIe (x16), CrossfireX\r\n4x SATA3, 5x M.2, WiFi, 1x 10GBase-T\r\n4x USB 3.1 Gen2 Typ C, 7x USB 3.1 Gen2, 6x USB 3.1 Gen1, 2x USB2.0\r\n1x DisplayPort 1.4, Bluetooth",
+    "image": "https://img.computerunivers.net/images/250x250/9091498607FF2DB8F7DB49E8A6E791AD.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 14,
+  "fields": {
+    "name": "ASUS ROG STRIX B550-F GAMING WIFI II",
+    "category": "MOTHERBOARD",
+    "description": "ATX, Socket AM4\r\nAMD B550, 4x DDR4 up to 128 GB\r\n2x PCIe (x16), 3x PCIe (x1)\r\n6x SATA3, 2x M.2, WiFi, 1x 2.5GBase-T\r\n1x USB 3.1 Gen2 Typ C, 1x USB 3.1 Gen2, 6x USB 3.1 Gen1, 2x USB2.0\r\nHDMI, 1x DisplayPort 1.2",
+    "image": "https://img.computerunivers.net/images/250x250/908505891A05CF2590B242E8A9B3A6F7.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 15,
+  "fields": {
+    "name": "ASRock Z790 PRO RS/D4",
+    "category": "MOTHERBOARD",
+    "description": "ATX, Sockel 1700\r\nIntel Z790, 4x DDR4 up to 128 GB\r\n1x PCIe (x16), 2x PCIe (x1), CrossfireX\r\n8x SATA3, 5x M.2, 1x 2.5GBase-T\r\n2x USB 3.1 Gen1 Typ C, 1x USB 3.1 Gen2, 4x USB 3.1 Gen1, 6x USB2.0\r\nHDMI, 1x DisplayPort 1.4",
+    "image": "https://img.computerunivers.net/images/250x250/9091598755391156C4BB4294B960B66A.jpg"
+  }
+},
+{
+  "model": "reviewer.product",
+  "pk": 16,
+  "fields": {
+    "name": "MSI MPG Z590 GAMING EDGE WIFI",
+    "category": "MOTHERBOARD",
+    "description": "ATX, Sockel 1200\r\nIntel Z590, 4x DDR4 up to 128 GB\r\n3x PCIe (x16), 2x PCIe (x1), CrossfireX\r\n6x SATA3, 3x M.2, WiFi, 1x 2.5GBase-T\r\n2x USB 3.1 Gen1 Typ C, 3x USB 3.1 Gen2, 3x USB 3.1 Gen1, 4x USB2.0\r\nHDMI, 1x DisplayPort 1.4, Bluetooth",
+    "image": "https://img.computerunivers.net/images/250x250/90825591C97BCAEAE0494A60889F1936.jpg"
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "product": 1,
+    "feedback": "Very nice CPU!",
+    "rating": 5
+  }
+}
+]

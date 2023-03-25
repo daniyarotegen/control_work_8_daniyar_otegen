@@ -40,7 +40,7 @@ View Product
     </div>
 
     <h3 style="margin-top: 2rem">Reviews {% if request.user.is_authenticated %}<a href="{% url 'review_create' pk=product.pk %}" class="btn btn-outline-primary me-2">Add Review</a>{% endif %}</h3>
-    <p>Average Rating: {{ product.average_rating|default:"N/A" }}</p>
+    <p>Average Rating: {% if product.average_rating %}{{ product.average_rating }}{% else %}N/A{% endif %}</p>
     {% if reviews %}
     {% for review in reviews %}
     <div class="card" style="margin-bottom: 1rem">

@@ -1,5 +1,5 @@
 from django.contrib.auth import login, get_user_model
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 from django.shortcuts import render
 from django.urls import reverse_lazy, reverse
@@ -19,7 +19,7 @@ class UserProfileView(LoginRequiredMixin, View):
         return render(request, self.template_name, {'user': user, 'reviews': reviews})
 
 
-class UserUpdateView(LoginRequiredMixin, UpdateView):
+class UserUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = User
     form_class = CustomUserChangeForm
     template_name = 'user_update.html'
@@ -30,6 +30,9 @@ class UserUpdateView(LoginRequiredMixin, UpdateView):
     def get_success_url(self):
         user_id = self.object.pk
         return reverse('user_profile', kwargs={'user_id': user_id})
+
+    def test_func(self):
+        return self.request.user == self.get_object()
 
 
 class RegisterView(CreateView):

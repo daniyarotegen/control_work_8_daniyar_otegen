@@ -1,8 +1,14 @@
+from django.contrib.auth.mixins import UserPassesTestMixin
 from django.core.paginator import Paginator
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, DetailView, DeleteView, UpdateView
 from reviewer.forms import ProductForm
 from reviewer.models import Product
+
+
+class ModeratorRequiredMixin(UserPassesTestMixin):
+    def test_func(self):
+        return self.request.user.groups.filter(name='Moderators').exists()
 
 
 class ProductListView(ListView):
@@ -12,7 +18,7 @@ class ProductListView(ListView):
     paginate_by = 8
 
 
-class ProductCreateView(CreateView):
+class ProductCreateView(ModeratorRequiredMixin, CreateView):
     model = Product
     form_class = ProductForm
     template_name = 'product_create.html'
@@ -36,14 +42,14 @@ class ProductDetail(DetailView):
         return context
 
 
-class ProductUpdateView(UpdateView):
+class ProductUpdateView(ModeratorRequiredMixin, UpdateView):
     model = Product
     fields = ['name', 'category', 'description', 'image']
     template_name = 'product_update.html'
     success_url = reverse_lazy('index')
 
 
-class ProductDeleteView(DeleteView):
+class ProductDeleteView(ModeratorRequiredMixin, DeleteView):
     model = Product
     template_name = 'product_delete.html'
     success_url = reverse_lazy('inde')

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block title %}Update Product{% endblock %}
+
+{% block content %}
+  <h1>Update Product</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a href="{% url 'index' %}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}

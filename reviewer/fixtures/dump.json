@@ -32,6 +32,21 @@
   }
 },
 {
+  "model": "accounts.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$8rR8nDxMSuLsJmnGwi6841$ksIIWfHgdP28TTLb2WPyoaNDddd4oHG6QEYqc/mUNvY=",
+    "last_login": "2023-03-25T11:51:10.329Z",
+    "is_superuser": false,
+    "username": "jane",
+    "email": "jane@email.com",
+    "is_active": true,
+    "is_staff": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
@@ -427,10 +442,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "v3x4zklbee0oazjtrcxyq9ekqlly5le6",
+  "pk": "jdnxhzxpovjmbnkrft1x14b3mikaqpt2",
   "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSGU14BL934DYRiQqoGktCvjv2uTLnR7zzn3xULc1hq2kZcwEzszyU6_G8b0yG0HdI_t1nnqbV1m5LvCDzr4tVN-Xg7376DGUb-1F7aQT5acm4A0AVlw2aMoRSMYDaXIBMoATap4oyV6paXVFgmFJ2TvD-PAN84:1pg2JV:M8Alj9sS9gEEWq2hXKqD2t7wRkmHqENwp1ll-G5eN4E",
-    "expire_date": "2023-04-08T11:44:01.398Z"
+    "session_data": ".eJxVjMsOwiAQRf-FtSFgZ3i4dO83kKEDUjWQlHZl_HfbpAvd3nPOfYtA61LC2tMcJhYXMYjT7xZpfKa6A35QvTc5trrMU5S7Ig_a5a1xel0P9--gUC9b7Qx7C5ocKm_Y6QTaZjhDRDNkYAsAFmJEPRiPNim2SGC8RpXNVnnx-QKsGzZD:1pg2QQ:8-4KX0WtiILueJ3umv6oUro5GKatNi2dwtsMrpyLwMM",
+    "expire_date": "2023-04-08T11:51:10.330Z"
   }
 },
 {
@@ -680,6 +695,106 @@
     "author": 2,
     "product": 1,
     "feedback": "Nice one",
+    "rating": 4
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 10,
+  "fields": {
+    "author": 3,
+    "product": 9,
+    "feedback": "best tv",
+    "rating": 5
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 11,
+  "fields": {
+    "author": 3,
+    "product": 10,
+    "feedback": "Very expensive",
+    "rating": 4
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 12,
+  "fields": {
+    "author": 3,
+    "product": 11,
+    "feedback": "so so",
+    "rating": 2
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 13,
+  "fields": {
+    "author": 3,
+    "product": 12,
+    "feedback": "good one",
+    "rating": 4
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 14,
+  "fields": {
+    "author": 3,
+    "product": 13,
+    "feedback": "ok",
+    "rating": 3
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 15,
+  "fields": {
+    "author": 3,
+    "product": 14,
+    "feedback": "Recommend!",
+    "rating": 5
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 16,
+  "fields": {
+    "author": 3,
+    "product": 15,
+    "feedback": "Pretty",
+    "rating": 4
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 17,
+  "fields": {
+    "author": 3,
+    "product": 16,
+    "feedback": "Will do",
+    "rating": 3
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 18,
+  "fields": {
+    "author": 3,
+    "product": 1,
+    "feedback": "Some feedback",
+    "rating": 4
+  }
+},
+{
+  "model": "reviewer.review",
+  "pk": 19,
+  "fields": {
+    "author": 3,
+    "product": 1,
+    "feedback": "More feedback",
     "rating": 4
   }
 }

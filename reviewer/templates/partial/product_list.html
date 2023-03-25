@@ -12,6 +12,7 @@
             <a href="{% url 'product_detail' product.pk %}"><h6 class="card-title">{{ product.name }}</h6></a>
             <div class="card-footer">
                 <p class="text-center" style="margin: 0; ">{{ product.rating }}</p>
+                <p>Average Rating: {{ product.average_rating|default:"N/A" }}</p>
             </div>
         </div>
     </div>

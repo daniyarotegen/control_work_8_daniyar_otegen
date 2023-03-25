@@ -11,5 +11,5 @@ class ProductForm(forms.ModelForm):
 class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
-        fields = ('author', 'product', 'feedback', 'rating')
+        fields = ('feedback', 'rating')
 

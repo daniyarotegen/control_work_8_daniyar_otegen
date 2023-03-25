@@ -18,6 +18,13 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+    def average_rating(self):
+        total_reviews = self.reviews.count()
+        if total_reviews > 0:
+            total_rating = sum([review.rating for review in self.reviews.all()])
+            return round(total_rating / total_reviews, 1)
+        return None
+
 
 class Review(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews', verbose_name='Author')

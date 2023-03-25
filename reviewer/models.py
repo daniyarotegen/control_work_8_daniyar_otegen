@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+from source import settings
 
 
 class Product(models.Model):
@@ -27,9 +27,24 @@ class Product(models.Model):
 
 
 class Review(models.Model):
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews', verbose_name='Author')
-    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews', verbose_name='Product')
-    feedback = models.TextField(max_length=3000, blank=False, null=False, verbose_name='Feedback')
+    author = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='reviews',
+        verbose_name='Author'
+    )
+    product = models.ForeignKey(
+        Product,
+        on_delete=models.CASCADE,
+        related_name='reviews',
+        verbose_name='Product'
+    )
+    feedback = models.TextField(
+        max_length=3000,
+        blank=False,
+        null=False,
+        verbose_name='Feedback'
+    )
     rating = models.IntegerField(choices=[(i, i) for i in range(1, 6)])
 
     def __str__(self):

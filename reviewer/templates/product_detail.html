@@ -36,14 +36,13 @@ View Product
         </div>
     </div>
 
-    <h3 style="margin-top: 2rem">Reviews <a href="{% url 'review_create' pk=product.pk %}" class="btn btn-primary">Add
-        Review</a></h3>
+    <h3 style="margin-top: 2rem">Reviews <a href="{% url 'review_create' pk=product.pk %}" class="btn btn-outline-primary me-2">Add Review</a></h3>
     <p>Average Rating: {{ product.average_rating|default:"N/A" }}</p>
     {% if reviews %}
     {% for review in reviews %}
     <div class="card" style="margin-bottom: 1rem">
         <div class="card-body">
-            <h5 class="card-title">{{ review.author.username }} ({{ review.author.email }}) - {{ review.rating }}</h5>
+            <h5 class="card-title"><a href="{% url 'user_profile' review.author.id %}">{{ review.author.username }}</a> ({{ review.author.email }}) - {{ review.rating }}</h5>
             <p class="card-text">{{ review.feedback }}</p>
             {% if user.is_authenticated and user == review.author %}
             <a href="{% url 'review_update' pk=review.pk %}">Edit</a> |

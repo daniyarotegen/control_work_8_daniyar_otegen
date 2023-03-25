@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>User Profile <a href="{% url 'user_update' %}" class="btn btn-outline-success me-2">Edit Profile</a> </h2>
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+
+    <h3>User Reviews</h3>
+    <ul>
+        {% for review in reviews %}
+            <li>
+                <strong><a href="{% url 'product_detail' review.product.pk %}">{{ review.product.name }}</a></strong> - Rating: {{ review.rating }}<br>
+                {{ review.feedback }}
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
